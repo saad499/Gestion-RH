@@ -1,0 +1,1 @@
+/usr/lib/postgresql/13/bin/postgres "-c" "shared_preload_libraries=pg_stat_statements" "-c" "log_statement=all"

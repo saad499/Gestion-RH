@@ -1,0 +1,86 @@
+version: '3'
+services:
+  eureka-server:
+    container_name: eureka-server
+    build:
+      context: ./discoveryserver
+      dockerfile: Dockerfile
+    networks:
+      - gestion_rh_network
+    ports:
+      - "8761:8761"
+    environment:
+      SPRING_APPLICATION_NAME: discovery-server-service
+      SERVER_PORT: 8761
+      EUREKA_CLIENT_REGISTER-WITH-EUREKA: "true"
+      EUREKA_CLIENT_FETCH-REGISTRY: "true"
+      EUREKA_CLIENT_HEALTHCHECK_ENABLED: "true"
+
+  api-gateway:
+    container_name: api-gateway
+    build:
+      context: ./api-gateway
+      dockerfile: Dockerfile
+    networks:
+      - gestion_rh_network
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka-server
+    environment:
+      SPRING_APPLICATION_NAME: api-gateway-service
+      SERVER_PORT: 8080
+
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: saadkammouss@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: pgadmin-employee
+    ports:
+      - "5050:80"
+    networks:
+      - gestion_rh_network
+
+  keycloak_database:
+    image: postgres:13
+    container_name: keycloak_database
+    restart: always
+    environment:
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloak
+      POSTGRES_DB: keycloak
+    volumes:
+      - ./data/keycloak_db_data:/var/lib/postgresql/data
+    command: [ "postgres", "-c", "shared_preload_libraries=pg_stat_statements", "-c", "log_statement=all" ]
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U keycloak" ]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+    networks:
+      - gestion_rh_network
+
+  keycloak:
+    image: jboss/keycloak
+    container_name: keycloak
+    environment:
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+      DB_VENDOR: POSTGRES
+      DB_ADDR: keycloak_database
+      DB_DATABASE: keycloak
+      DB_USER: keycloak
+      DB_PASSWORD: keycloak
+    ports:
+      - "8081:8080"
+    depends_on:
+      - keycloak_database
+    networks:
+      - gestion_rh_network
+
+networks:
+  gestion_rh_network:
+    driver: bridge
+    external: true
