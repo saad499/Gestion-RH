@@ -6,10 +6,10 @@ import com.example.gestionemployes.exception.IllegalArgumentException;
 import com.example.gestionemployes.repositories.EmployeeRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
@@ -21,24 +21,52 @@ import java.util.Optional;
 public class EmployeeServiceImpl implements EmployeeService {
     private EmployeeRepository employeeRepository;
     private KeycloakService keycloakService;
-    public EmployeeServiceImpl(EmployeeRepository employeeRepository, KeycloakService keycloakService){
+    private final PasswordEncoder passwordEncoder;
+    public EmployeeServiceImpl(EmployeeRepository employeeRepository, KeycloakService keycloakService, PasswordEncoder passwordEncoder){
         this.employeeRepository = employeeRepository;
         this.keycloakService = keycloakService;
+        this.passwordEncoder = passwordEncoder;
     }
     @Override
     public boolean isValidRole(String Role){
         return Arrays.asList("MANAGER", "EMPLOYEE", "ADMIN", "RESPONSABLE-RH").contains(Role);
     }
-    @Override
+    /*@Override
     public Employee createEmployee(Employee employee) {
         employee.setCreatedAt(new Date());
         String Role = employee.getRole();
         if(!isValidRole(Role)){
             throw new IllegalArgumentException("Le role n'est pas valide");
         }
-        keycloakService.registerEmployeeInKeycloak(employee);
+        keycloakService.createUserInKeycloak( keycloakService,employee);
         Employee saveEmployee = employeeRepository.save(employee);
         return saveEmployee;
+    }*/
+    @Override
+    public Employee createEmployee(Employee employee)  {
+        //validateUniqueFields(employee);
+        // Create a user in Keycloak
+        keycloakService.createUserInKeycloak(keycloakService.getKeycloakAccessToken(), employee);
+        // Hash Employee password
+        String hashedPassword = passwordEncoder.encode(employee.getMotDePasse());
+        String password = employee.getMotDePasse();
+        employee.setMotDePasse(hashedPassword);
+
+        // Save Employee
+        Employee createdEmployee = employeeRepository.save(employee);
+
+       // emailService.sendLoginCredentials(createdEmployee.getEmail(), createdEmployee.getUsername(), password);
+
+        // Save the employee's avatar to the document service
+        /*if (employee.getImage() != null) {
+            String avatarUrl = saveAvatarToDocumentService(employee, createdEmployee, "create");
+            createdEmployee.setAvatar(avatarUrl);
+            employeeRepository.save(createdEmployee);
+        }
+        EmployeeResponse employeeResponse = employeeMapper.convertToResponse(createdEmployee);
+        kafkaTemplate.send("topic-add-employee", employeeResponse);
+*/
+        return createdEmployee;
     }
 
     @Override

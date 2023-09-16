@@ -4,7 +4,756 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db95be-33a8-400c-91dc-b885041d3856" name="Changes" comment="" />
+    <list default="true" id="64db95be-33a8-400c-91dc-b885041d3856" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_btf_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_patch_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_msg_simple_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_async_asyncutil_0_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_common_smallrye_common_annotation_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_common_smallrye_common_classloader_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_common_smallrye_common_constraint_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_common_smallrye_common_expression_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_common_smallrye_common_function_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_config_smallrye_config_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_config_smallrye_config_common_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_config_smallrye_config_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_core_0_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_storage_0_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_config_microprofile_config_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_client_api_4_7_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_core_spi_4_7_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestionRH-realm.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_btf_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_jackson_coreutils_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_json_patch_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_msg_simple_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_dom_0_8_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_client_3_13_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_core_4_7_7_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson2_provider_3_13_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson2_provider_4_7_7_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_3_13_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_4_7_7_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_13_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_client_4_7_7_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_multipart_provider_3_13_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_multipart_provider_4_7_7_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_adapter_core_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_admin_client_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_adapter_spi_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_adapter_spi_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_admin_client_15_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_authz_client_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_authz_client_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_adapter_core_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_common_15_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_common_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_core_15_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_core_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_crypto_default_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_crypto_default_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_policy_enforcer_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_policy_enforcer_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_server_spi_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_server_spi_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_server_spi_private_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_server_spi_private_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_boot_2_adapter_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_boot_2_adapter_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_boot_adapter_core_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_boot_adapter_core_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_boot_starter_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_boot_starter_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_security_adapter_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_keycloak_spring_security_adapter_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_spring_boot_container_bundle_22_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_keycloak_spring_boot_container_bundle_21_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/13468/pg_internal.init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1247" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1249" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1249_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1249_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1249_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1259" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/1259_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16385" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16385" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16390" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16390" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16390_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16390_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16399" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16399" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16420" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16420" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16423" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16423" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16438" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16438" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16438_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16438_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16445" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16445" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16463" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16463" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16472" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16472" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16475" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16475" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16495" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16495" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16498" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16498" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16510" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16510" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16534" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16534" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16550" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16550" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16563" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16563" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16573" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16573" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16577" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16577" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16579" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16579" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16581" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16581" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16583" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16583" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16585" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16585" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16589" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16589" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16593" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16593" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16597" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16597" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16601" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16601" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16609" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16609" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16773" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16773" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16789" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16789" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16810" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16810" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16817" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16817" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16817_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16817_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16859" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16859" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16942" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16942" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16969" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/16969" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17050" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17050" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17056" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17056" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17062" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17062" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17067" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17067" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17094" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17094" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17096" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17096" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17098" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17098" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17100" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17150" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17150" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17175" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17175" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17191" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17191" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17305" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17305" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17320" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17320" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17326" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17326" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17335" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17335" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17364" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17364" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17376" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17376" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17385" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17385" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17386" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17386" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17392" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17392" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17396" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17434" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17437" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17439" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17440" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17566" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17566" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17566_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17566_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17572" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17572" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17596" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17596" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17598" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17598" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17640" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17640" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17647" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17647" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17667" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17667" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17668" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17668" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17669" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17669" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17670" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17670" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17675" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17675" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17676" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17676" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17677" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17677" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17678" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17678" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17685" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17685" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17686" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17686" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17687" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17687" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17689" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17689" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17690" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17690" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17694" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17694" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17696" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17696" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17697" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17697" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17703" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17703" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17709" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17709" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17712" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17718" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17721" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17741" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17741" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17762" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17762" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17766" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17766" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17768" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17768" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17796" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17796" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17823" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17823" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17823_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17823_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17827" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17827" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17839" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17839" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17843" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17843" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17870" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17870" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17871" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17871" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17872" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17872" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17873" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17873" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17874" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17874" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17875" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17875" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17876" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17876" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17877" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17877" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17878" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17878" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17947" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17947" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17956" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17956" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17977" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/17977" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/18000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2608" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2610" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2619" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2619_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2619_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2658" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2659" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2662" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2662" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2663" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2663" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2673" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2673" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2674" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2674" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2678" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2678" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2679" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2679" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2696" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2696" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2703" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2703" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2704" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2840" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2840" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2840_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2840_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2841" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/2841" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/3455" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/base/16384/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/db_0.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/db_13468.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/db_16384.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/db_16384.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/pgss_query_texts.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/pg_stat_tmp/pgss_query_texts.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/pg_wal/000000010000000000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keycloak_db_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/data/keycloak_db_data/postmaster.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-principale.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-principale.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/13468/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/13468/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/1249" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/1249_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/2619" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/2840" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/2840" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/2841" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/2841" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/base/16384/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/db_0.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/db_13468.stat" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/db_13468.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/db_16384.stat" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/db_16384.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/pgss_query_texts.stat" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_stat_tmp/pgss_query_texts.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_subtrans/0000" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_subtrans/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_wal/000000010000000000000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_wal/000000010000000000000002" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_wal/000000010000000000000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/data/employees_db_data/postmaster.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/src/main/java/com/example/gestionemployes/GestionEmployesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/src/main/java/com/example/gestionemployes/GestionEmployesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/src/main/java/com/example/gestionemployes/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/src/main/java/com/example/gestionemployes/services/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-employes/src/main/java/com/example/gestionemployes/services/KeycloakService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-employes/src/main/java/com/example/gestionemployes/services/KeycloakService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/client/keycloak-admin-cli-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/client/keycloak-client-registration-cli-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/client/lib/bcprov-jdk15on-1.70.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/client/lib/keycloak-crypto-default-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/client/lib/keycloak-crypto-fips1402-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/federation-sssd-setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/kc.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/kc.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/kcadm.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/kcadm.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/kcreg.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/bin/kcreg.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/conf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/conf/cache-ispn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/conf/keycloak.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/data/h2/keycloakdb.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/data/h2/keycloakdb.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/data/tmp/kc-gzip-cache/j3fl2/js/keycloak.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/app/keycloak.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/io.github.crac.org-crac-0.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/io.quarkus.quarkus-bootstrap-runner-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/io.quarkus.quarkus-development-mode-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/io.quarkus.quarkus-vertx-latebound-mdc-provider-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/io.smallrye.common.smallrye-common-io-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/jakarta.json.jakarta.json-api-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/org.eclipse.parsson.parsson-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/org.graalvm.sdk.graal-sdk-22.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/org.jboss.byteman.byteman-4.0.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/org.jboss.logging.jboss-logging-3.5.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/org.jboss.logmanager.jboss-logmanager-embedded-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/boot/org.wildfly.common.wildfly-common-1.5.4.Final-format-001.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/appmodel.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/deployment-class-path.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.arc.arc-processor-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.gizmo.gizmo-1.6.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.http.quarkus-http-core-5.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.http.quarkus-http-http-core-5.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.http.quarkus-http-servlet-5.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-agroal-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-agroal-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-arc-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-bootstrap-app-model-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-bootstrap-core-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-builder-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-caffeine-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-class-change-agent-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-core-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-credentials-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-datasource-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-datasource-deployment-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-devtools-utilities-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-hibernate-orm-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-hibernate-orm-deployment-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-hibernate-validator-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jackson-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jackson-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jaxrs-spi-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jdbc-h2-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jdbc-mariadb-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jdbc-mssql-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jdbc-mysql-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jdbc-oracle-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jdbc-postgresql-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-jsonp-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-kubernetes-service-binding-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-kubernetes-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-logging-gelf-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-logging-json-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-micrometer-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-micrometer-registry-prometheus-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-mutiny-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-narayana-jta-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-netty-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-panache-common-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-panache-common-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-panache-hibernate-common-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-panache-hibernate-common-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-reactive-routes-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-common-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-common-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-jackson-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-reactive-server-spi-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-reactive-spi-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-server-common-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-resteasy-server-common-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-security-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-smallrye-context-propagation-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-smallrye-context-propagation-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-smallrye-health-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-smallrye-health-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-smallrye-openapi-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-undertow-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-vertx-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-vertx-http-deployment-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-vertx-http-deployment-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-vertx-http-dev-console-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-vertx-http-dev-ui-resources-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.quarkus-vertx-http-dev-ui-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.qute.qute-core-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.resteasy.reactive.resteasy-reactive-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.resteasy.reactive.resteasy-reactive-common-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.resteasy.reactive.resteasy-reactive-common-processor-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.resteasy.reactive.resteasy-reactive-common-types-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.quarkus.resteasy.reactive.resteasy-reactive-processor-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.smallrye.smallrye-health-ui-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/io.smallrye.smallrye-open-api-core-3.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.aesh.aesh-2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.aesh.readline-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.apiguardian.apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.eclipse.microprofile.openapi.microprofile-openapi-api-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.eclipse.sisu.org.eclipse.sisu.inject-0.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.fusesource.jansi.jansi-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.jboss.metadata.jboss-metadata-common-16.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.jboss.metadata.jboss-metadata-web-16.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.junit.jupiter.junit-jupiter-5.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.junit.jupiter.junit-jupiter-api-5.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.junit.jupiter.junit-jupiter-engine-5.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.junit.jupiter.junit-jupiter-params-5.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.junit.platform.junit-platform-commons-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.junit.platform.junit-platform-engine-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.junit.platform.junit-platform-launcher-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.keycloak.keycloak-quarkus-server-deployment-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.lit-labs.ssr-dom-shim-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.lit.reactive-element-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.open-wc.dedupe-mixin-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.polymer.polymer-3.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.types.trusted-types-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.accordion-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.app-layout-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.avatar-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.avatar-group-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.button-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.checkbox-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.checkbox-group-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.combo-box-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.component-base-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.confirm-dialog-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.context-menu-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.custom-field-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.date-picker-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.date-time-picker-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.details-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.dialog-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.email-field-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.field-base-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.form-layout-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.grid-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.horizontal-layout-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.icon-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.icons-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.input-container-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.integer-field-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.item-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.list-box-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.lit-renderer-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.login-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.menu-bar-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.message-input-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.message-list-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.multi-select-combo-box-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.notification-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.number-field-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.overlay-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.password-field-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.progress-bar-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.radio-group-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.router-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.scroller-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.select-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.split-layout-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.tabs-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.tabsheet-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.text-area-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.text-field-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.time-picker-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.tooltip-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.upload-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.vaadin-development-mode-detector-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.vaadin-lumo-styles-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.vaadin-material-styles-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.vaadin-themable-mixin-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.vaadin-usage-statistics-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.vertical-layout-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vaadin.virtual-list-24.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.vanillawc.wc-codemirror-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.at.webcomponents.shadycss-1.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.echarts-5.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.es-module-shims-1.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.importmap-1.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.lit-2.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.lit-element-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.lit-element-state-1.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.lit-html-2.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.path-to-regexp-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.tslib-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.mvnpm.zrender-5.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/deployment/org.opentest4j.opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/biz.paluch.logging.logstash-gelf-1.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.aayushatharva.brotli4j.brotli4j-1.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.aayushatharva.brotli4j.native-linux-x86_64-1.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.aayushatharva.brotli4j.service-1.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.core.jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.core.jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.core.jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.dataformat.jackson-dataformat-cbor-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.jakarta.rs.jackson-jakarta-rs-base-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.jakarta.rs.jackson-jakarta-rs-json-provider-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.module.jackson-module-jakarta-xmlbind-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.fasterxml.jackson.module.jackson-module-parameter-names-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.github.ben-manes.caffeine.caffeine-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.github.java-json-tools.btf-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.github.java-json-tools.jackson-coreutils-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.github.java-json-tools.json-patch-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.github.java-json-tools.msg-simple-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.github.ua-parser.uap-java-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.github.waffle.waffle-jna-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.google.guava.guava-32.0.0-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.google.zxing.core-3.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.google.zxing.javase-3.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.googlecode.owasp-java-html-sanitizer.owasp-java-html-sanitizer-20220608.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.h2database.h2-2.2.220.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.ibm.async.asyncutil-0.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.microsoft.sqlserver.mssql-jdbc-12.2.0.jre11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.opencsv.opencsv-5.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.oracle.database.jdbc.ojdbc11-23.2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.oracle.database.nls.orai18n-23.2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.squareup.protoparser-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.sun.istack.istack-commons-runtime-3.0.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.sun.istack.istack-commons-tools-3.0.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.sun.xml.bind.external.relaxng-datatype-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.sun.xml.bind.external.rngom-2.3.3-b02.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.sun.xml.messaging.saaj.saaj-impl-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.webauthn4j.webauthn4j-core-0.21.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/com.webauthn4j.webauthn4j-util-0.21.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/commons-codec.commons-codec-1.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/commons-io.commons-io-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/info.picocli.picocli-4.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.agroal.agroal-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.agroal.agroal-narayana-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.agroal.agroal-pool-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.micrometer.micrometer-commons-1.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.micrometer.micrometer-core-1.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.micrometer.micrometer-observation-1.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.micrometer.micrometer-registry-prometheus-1.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-buffer-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-codec-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-codec-dns-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-codec-haproxy-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-codec-http-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-codec-http2-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-codec-socks-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-common-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-handler-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-handler-proxy-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-resolver-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-resolver-dns-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-transport-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-transport-classes-epoll-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-transport-native-epoll-4.1.94.Final-linux-aarch_64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-transport-native-epoll-4.1.94.Final-linux-x86_64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.netty.netty-transport-native-unix-common-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.prometheus.simpleclient-0.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.prometheus.simpleclient_common-0.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.prometheus.simpleclient_tracer_common-0.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.prometheus.simpleclient_tracer_otel-0.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.prometheus.simpleclient_tracer_otel_agent-0.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.arc.arc-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-agroal-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-arc-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-caffeine-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-core-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-credentials-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-datasource-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-datasource-common-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-fs-util-0.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-hibernate-orm-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jackson-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jdbc-h2-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jdbc-mariadb-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jdbc-mssql-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jdbc-mysql-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jdbc-oracle-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jdbc-postgresql-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-jsonp-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-logging-gelf-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-logging-json-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-micrometer-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-micrometer-registry-prometheus-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-mutiny-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-narayana-jta-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-netty-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-reactive-routes-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-resteasy-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-resteasy-common-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-resteasy-jackson-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-resteasy-server-common-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-security-runtime-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-smallrye-context-propagation-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-smallrye-health-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-transaction-annotations-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-vertx-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-vertx-http-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.quarkus-vertx-http-dev-console-runtime-spi-3.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.quarkus.security.quarkus-security-2.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.reactivex.rxjava3.rxjava-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.common.smallrye-common-annotation-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.common.smallrye-common-classloader-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.common.smallrye-common-constraint-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.common.smallrye-common-expression-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.common.smallrye-common-function-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.common.smallrye-common-os-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.common.smallrye-common-vertx-context-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.config.smallrye-config-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.config.smallrye-config-common-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.config.smallrye-config-core-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.config.smallrye-config-source-keystore-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.jandex-3.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.mutiny-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.mutiny-smallrye-context-propagation-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.mutiny-zero-flow-adapters-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-mutiny-vertx-auth-common-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-mutiny-vertx-bridge-common-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-mutiny-vertx-core-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-mutiny-vertx-runtime-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-mutiny-vertx-uri-template-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-mutiny-vertx-web-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-mutiny-vertx-web-common-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-reactive-converter-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.smallrye-reactive-converter-mutiny-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.reactive.vertx-mutiny-generator-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-context-propagation-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-context-propagation-api-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-context-propagation-jta-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-context-propagation-storage-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-fault-tolerance-vertx-6.2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-health-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-health-api-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.smallrye.smallrye-health-provided-checks-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.vertx.vertx-auth-common-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.vertx.vertx-bridge-common-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.vertx.vertx-codegen-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.vertx.vertx-core-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.vertx.vertx-uri-template-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.vertx.vertx-web-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/io.vertx.vertx-web-common-4.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.activation.jakarta.activation-api-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.annotation.jakarta.annotation-api-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.ejb.jakarta.ejb-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.el.jakarta.el-api-5.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.enterprise.jakarta.enterprise.cdi-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.enterprise.jakarta.enterprise.lang-model-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.inject.jakarta.inject-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.interceptor.jakarta.interceptor-api-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.mail.jakarta.mail-api-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.persistence.jakarta.persistence-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.resource.jakarta.resource-api-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.servlet.jakarta.servlet-api-6.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.transaction.jakarta.transaction-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.validation.jakarta.validation-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.ws.rs.jakarta.ws.rs-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.xml.bind.jakarta.xml.bind-api-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/jakarta.xml.soap.jakarta.xml.soap-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/javax.xml.bind.jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/mysql.mysql-connector-java-8.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/net.bytebuddy.byte-buddy-1.12.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/net.java.dev.jna.jna-5.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/net.java.dev.jna.jna-platform-5.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.antlr.antlr4-runtime-4.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.commons.commons-collections4-4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.commons.commons-lang3-3.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.httpcomponents.httpclient-4.5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.httpcomponents.httpcore-4.4.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.james.apache-mime4j-core-0.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.james.apache-mime4j-dom-0.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.james.apache-mime4j-storage-0.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.kerby.kerby-asn1-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.apache.santuario.xmlsec-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.bouncycastle.bcpkix-jdk15on-1.70.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.bouncycastle.bcprov-jdk15on-1.70.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.bouncycastle.bcutil-jdk15on-1.70.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.eclipse.angus.angus-activation-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.eclipse.angus.angus-mail-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.eclipse.microprofile.config.microprofile-config-api-3.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.eclipse.microprofile.context-propagation.microprofile-context-propagation-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.eclipse.microprofile.health.microprofile-health-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.eclipse.microprofile.reactive-streams-operators.microprofile-reactive-streams-operators-api-3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.freemarker.freemarker-2.3.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.glassfish.jaxb.codemodel-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.glassfish.jaxb.jaxb-core-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.glassfish.jaxb.jaxb-jxc-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.glassfish.jaxb.jaxb-runtime-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.glassfish.jaxb.jaxb-xjc-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.glassfish.jaxb.txw2-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.glassfish.jaxb.xsom-2.3.3-b02.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.hdrhistogram.HdrHistogram-2.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.hibernate.common.hibernate-commons-annotations-6.0.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.hibernate.orm.hibernate-core-6.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.hibernate.orm.hibernate-graalvm-6.2.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.hibernate.quarkus-local-cache-0.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.infinispan-cachestore-remote-14.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.infinispan-client-hotrod-jakarta-14.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.infinispan-commons-jakarta-14.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.infinispan-core-jakarta-14.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.infinispan-jboss-marshalling-14.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.infinispan-query-dsl-14.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.infinispan-remote-query-client-14.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.protostream.protostream-4.6.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.infinispan.protostream.protostream-types-4.6.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.javassist.javassist-3.29.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.byteman.byteman-bmunit-4.0.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.byteman.byteman-install-4.0.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.byteman.byteman-submit-4.0.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.invocation.jboss-invocation-2.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.jboss-transaction-spi-8.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.logging.commons-logging-jboss-logging-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.logging.jboss-logging-annotations-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.marshalling.jboss-marshalling-2.0.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.marshalling.jboss-marshalling-river-2.0.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.narayana.jta.narayana-jta-6.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.narayana.jts.narayana-jts-integration-6.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.resteasy.microprofile.microprofile-config-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.resteasy.resteasy-cdi-6.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.resteasy.resteasy-core-6.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.resteasy.resteasy-core-spi-6.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.resteasy.resteasy-jackson2-provider-6.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.resteasy.resteasy-jaxb-provider-6.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.resteasy.resteasy-multipart-provider-6.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.slf4j.slf4j-jboss-logmanager-2.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.threads.jboss-threads-3.5.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jboss.weld.weld-api-5.0.SP2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jetbrains.annotations-24.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jgroups.jgroups-5.2.12.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.jvnet.staxex.stax-ex-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-account-ui-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-admin-ui-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-authz-policy-common-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-common-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-config-api-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-core-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-crypto-default-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-crypto-fips1402-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-js-adapter-jar-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-kerberos-federation-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-ldap-federation-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-infinispan-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-jpa-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-legacy-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-legacy-private-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-legacy-services-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-map-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-map-file-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-map-hot-rod-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-model-map-jpa-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-quarkus-server-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-rest-admin-ui-ext-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-saml-core-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-saml-core-public-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-server-spi-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-server-spi-private-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-services-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-sssd-federation-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.keycloak.keycloak-themes-22.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.latencyutils.LatencyUtils-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.liquibase.liquibase-core-4.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.locationtech.jts.jts-core-1.17.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.mariadb.jdbc.mariadb-java-client-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.openjdk.nashorn.nashorn-core-15.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.ow2.asm.asm-9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.ow2.asm.asm-analysis-9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.ow2.asm.asm-commons-9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.ow2.asm.asm-tree-9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.ow2.asm.asm-util-9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.postgresql.postgresql-42.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.reactivestreams.reactive-streams-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.slf4j.slf4j-api-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.snakeyaml.snakeyaml-engine-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.twitter4j.twitter4j-core-4.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-asn1-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-auth-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-auth-server-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-base-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-credential-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-http-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-keystore-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-mechanism-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-mechanism-digest-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-mechanism-gssapi-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-mechanism-oauth2-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-mechanism-scram-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-password-impl-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-permission-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-provider-util-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-digest-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-external-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-gs2-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-gssapi-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-oauth2-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-plain-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-sasl-scram-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-security-manager-action-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-ssl-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-util-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-x500-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-x500-cert-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.wildfly.security.wildfly-elytron-x500-cert-util-2.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/lib/main/org.yaml.snakeyaml-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/quarkus-run.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/quarkus/build-system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/quarkus/generated-bytecode.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/quarkus/quarkus-application.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/lib/quarkus/transformed-bytecode.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/providers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/themes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak-22.0.1/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.bat" beforeDir="false" afterPath="$PROJECT_DIR$/start.bat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +789,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/SaadKammous/Desktop/spring/Gestion-RH/GestionRH&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -56,6 +806,9 @@
       <recent name="C:\Users\SaadKammous\Desktop\spring\Gestion-RH\GestionRH" />
       <recent name="C:\Users\SaadKammous\Desktop\spring\Gestion-RH\GestionRH\discoveryserver" />
       <recent name="C:\Users\SaadKammous\Desktop\spring\Gestion-RH\GestionRH\api-gateway" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SaadKammous\Desktop\spring\Gestion-RH\GestionRH" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
@@ -106,7 +859,8 @@
       <workItem from="1694446265451" duration="15752000" />
       <workItem from="1694560541074" duration="5901000" />
       <workItem from="1694604723209" duration="1000" />
-      <workItem from="1694604777414" duration="12124000" />
+      <workItem from="1694604777414" duration="27665000" />
+      <workItem from="1694894269801" duration="5554000" />
     </task>
     <servers />
   </component>
