@@ -24,7 +24,7 @@ services:
     networks:
       - gestion_rh_network
     ports:
-      - "8080:8080"
+      - "8888:8080"
     depends_on:
       - eureka-server
     environment:
@@ -43,24 +43,6 @@ services:
     networks:
       - gestion_rh_network
 
-#  keycloak_database:
-#    image: postgres:13
-#    container_name: keycloak_database
-#    restart: always
-#    environment:
-#      POSTGRES_USER: keycloak
-#      POSTGRES_PASSWORD: keycloak
-#      POSTGRES_DB: keycloak
-#    volumes:
-#      - ./data/keycloak_db_data:/var/lib/postgresql/data
-#    command: [ "postgres", "-c", "shared_preload_libraries=pg_stat_statements", "-c", "log_statement=all" ]
-#    healthcheck:
-#      test: [ "CMD-SHELL", "pg_isready -U keycloak" ]
-#      interval: 30s
-#      timeout: 30s
-#      retries: 3
-#    networks:
-#      - gestion_rh_network
 
   keycloak-db:
     container_name: keycloak-db
@@ -101,7 +83,7 @@ services:
     depends_on:
       - keycloak-db
     ports:
-      - "8089:8080"
+      - "8080:8080"
     networks:
       - gestion_rh_network
     command:

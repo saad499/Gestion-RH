@@ -4,17 +4,26 @@ import com.example.gestionemployes.entities.Employee;
 import com.example.gestionemployes.entities.PaginatedResponse;
 import com.example.gestionemployes.exception.EmployeeNotFoundException;
 import com.example.gestionemployes.exception.ErrorResponse;
+import com.example.gestionemployes.exception.IllegalArgumentException;
 import com.example.gestionemployes.services.EmployeeService;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import jakarta.validation.ValidationException;
 import jakarta.ws.rs.NotFoundException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
+import javax.mail.MessagingException;
+
+
+@Slf4j
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeController {
@@ -25,24 +34,30 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
+    @PreAuthorize("hasRole('client-admin')")
     @PostMapping
-    public ResponseEntity<?> createEmployee(@RequestBody Employee employee, BindingResult bindingResult){
-        if (bindingResult.hasErrors()){
+    public ResponseEntity<?> createEmployee( @RequestBody Employee employee)  {
+      /*  if (bindingResult.hasErrors()) {
             StringBuilder errorMessage = new StringBuilder();
-            bindingResult.getAllErrors().forEach(error->{
-                errorMessage.append(error.getDefaultMessage()).append(" .");
-            });
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorMessage.toString());
-        }
-        String Role = employee.getRole();
-        if(!employeeService.isValidRole(Role)){
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Le rôle n'est pas valide.");
-        }
-        Employee saveEmployee = employeeService.createEmployee(employee);
-        return ResponseEntity.ok(saveEmployee);
+            for (FieldError fieldError : bindingResult.getFieldErrors()) {
+                errorMessage.append(fieldError.getDefaultMessage()).append(". ");
+                break;
+            }
+            return ResponseEntity.badRequest().body(errorMessage.toString());
+        }*/
+
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(employeeService.createEmployee(employee));
     }
 
-    @GetMapping
+    private String extractTokenFromAuthorizationHeader(String authorizationHeader) {
+        if (authorizationHeader != null && authorizationHeader.startsWith("Bearer ")) {
+            return authorizationHeader.substring("Bearer ".length());
+        }
+        throw new IllegalArgumentException("Le header Authorization est invalide");
+    }
+
+    /*@GetMapping
     public ResponseEntity<PaginatedResponse<Employee>> getEmployeeNotDeleted(@RequestParam(defaultValue = "0") int page,
                                                              @RequestParam(defaultValue = "5") int size){
         Page<Employee> employeePage = employeeService.listEmployeeSupprimer(page,size);
@@ -64,9 +79,7 @@ public class EmployeeController {
         try{
             employee.setUsername(username);
             String Role = employee.getRole();
-            if(!employeeService.isValidRole(Role)){
-                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Le rôle n'est pas valide.");
-            }
+
             Employee updateEmployee = employeeService.updateEmployee(username, employee);
             return ResponseEntity.ok(updateEmployee);
         }catch(NotFoundException e){
@@ -109,6 +122,6 @@ public class EmployeeController {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ErrorResponse handleIllegalArgumentException(IllegalArgumentException ex){
         return new ErrorResponse(ex.getMessage(), HttpStatus.BAD_REQUEST);
-    }
+    }*/
 
 }

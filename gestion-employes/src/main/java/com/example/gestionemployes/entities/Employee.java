@@ -58,9 +58,7 @@ public class Employee {
     @JsonIgnore
     private String motDePasse;
 
-    @NotBlank(message = "Le role est requis.")
-    @JsonProperty("Role")
-    private String Role;
+
     @ManyToOne
     @JoinColumn(name = "manager_id")
     private Employee manager;
@@ -71,4 +69,5 @@ public class Employee {
     @Column(name = "supprimer")
     @JsonIgnore
     private boolean supprimer;
+    private String clientRole;
 }
