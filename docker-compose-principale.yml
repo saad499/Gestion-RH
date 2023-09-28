@@ -87,9 +87,9 @@ services:
     networks:
       - gestion_rh_network
     command:
-      - start-dev --import-realm
-    volumes:
-      - ./gestionRH-realm.json:/opt/keycloak/data/import/gestionRH-realm.json
+      - start-dev
+    #volumes:
+     # - ./gestionRH-realm.json:/opt/keycloak/data/import/gestionRH-realm.json
 
 networks:
   gestion_rh_network:

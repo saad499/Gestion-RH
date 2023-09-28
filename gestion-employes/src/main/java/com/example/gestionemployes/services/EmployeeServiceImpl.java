@@ -67,7 +67,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         log.info("-----------------------");
         log.info("start create Employee");
         // Create a user in Keycloak
-        keycloakService.createUserInKeycloak(getCurrentAuthToken(), employee);
+        keycloakService.createUserInKeycloak(keycloakService.getKeycloakAccessToken(), employee);
         // Hash Employee password
         String hashedPassword = passwordEncoder.encode(employee.getMotDePasse());
        String password = employee.getMotDePasse();
